@@ -8,8 +8,6 @@ import argparse
 import logging
 import sys
 
-from . import __version__
-
 import numpy as np
 
 def _parse_args():
@@ -49,12 +47,6 @@ def _parse_args():
         action="store_false",
         help="Shorthand to enable verbose logging and increase level to `debug`.",
     )
-
-    parser.add_argument("--version", action="version", version=__version__)
-
-    print("Arguments: " + str(args._))
-    print("Replace this message by putting your code into "
-          "fatal_police_shootings.cli.main")
 
     if len(sys.argv[1:]) == 0:
         parser.print_help()

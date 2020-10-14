@@ -16,7 +16,7 @@ setup(
             'fatal_police_shootings=fatal_police_shootings.core:main',
         ],
     },
-    
+
     license="MIT license",
     include_package_data=True,
     keywords='fatal_police_shootings',
@@ -26,10 +26,8 @@ setup(
         'fatal_police_shootings', 'fatal_police_shootings.*'
     ]),
     test_suite='tests',
-    
+
     url='https://github.com/farisachugthai/fatal_police_shootings',
     version='0.1.0',
     zip_safe=False,
 )
-
-# Vim: set ft=jinja:python:

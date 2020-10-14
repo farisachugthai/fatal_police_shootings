@@ -3,6 +3,8 @@
 import pytest
 
 from fatal_police_shootings import core
+
+
 @pytest.fixture
 def response():
     """Sample pytest fixture.
@@ -20,5 +22,3 @@ def test_content(response):
 
 if __name__ == "__main__":
     pytest.main()
-
-# Vim: set ft=jinja.python:
