@@ -117,6 +117,7 @@ ENV/
 # Ignore tags created by etags, ctags, gtags (GNU global) and cscope
 #####################################################################
 *tags
+tags.temp
 /tags*tags
 /tags/
 */tags/*

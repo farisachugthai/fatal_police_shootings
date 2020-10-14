@@ -18,11 +18,6 @@ fatal_police_shootings
      :target: https://pyup.io/repos/github/farisachugthai/fatal_police_shootings/
      :alt: Updates
 
-
-
-Python Boilerplate contains all the boilerplate you need to create a Python package.
-
-
 * Free software: MIT license
 * Documentation: https://fatal-police-shootings.readthedocs.io.
 
@@ -30,7 +25,28 @@ Python Boilerplate contains all the boilerplate you need to create a Python pack
 Features
 --------
 
-* TODO
+Rough template for analyzing the data found at 538 aggregated
+on fatal police shootings from 2015 to 2020.
+
+
+Running the Tests
+-----------------
+
+.. warning::
+   Running the tests currently is a little odd.
+
+The tests need to be run in an exact way so that pytest can maintain
+it's typical ``rootdir`` setup but still find the csv file correctly.
+
+Run the following in a shell of your choice.
+
+.. code-block:: bash
+
+   cd fatal_police_shootings
+   pytest ../tests/test_fatal_police_shootings.py
+
+And the tests will pass.
+
 
 Credits
 -------

@@ -11,6 +11,7 @@ Welcome to fatal_police_shootings's documentation!
    usage
    contributing
    history
+   API <fatal_police_shootings>
 
 
 Indices and tables
